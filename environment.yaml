@@ -1,0 +1,6 @@
+name: bare_python_package
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - -r requirements-test.txt
